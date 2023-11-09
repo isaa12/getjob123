@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+  }
+
+.tabela {
+    text-align: center;
+}
+
+  .profile-header {
+    width: 100%;
+    height: 100px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+  
+  .profile-info {
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .profile-status {
+    font-size: 14px;
+  }
+  
+  .chat {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .messages {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .message.mine {
+    background-color: #b2d6ff;
+  }
+  
+  .message.other {
+    background-color: #f9f9f9;
+  }
+  
+  .input {
+    margin-top: 20px;
+  }
+  
+  #message {
+    width: 200px;
+  }
+  
+  #send {
+    background-color: #1686d6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
