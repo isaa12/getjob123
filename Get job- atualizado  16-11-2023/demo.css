@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .empregos {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .empregos ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .empregos li {
+    flex: 1 0 50%;
+    margin-bottom: 20px;
+  }
+  
+  .empregos li h3 {
+    font-size: 1.2em;
+  }
+
+  .empregos li p {
+    font-size: 0.9em;
+
+  }
+
+  
+  .form button{
+    color: #13b4f3;
+    background-color: blue;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
